@@ -40,3 +40,6 @@ This project can be built using a terminal:
 * Thank You!
 
 ---
+
+## License
+This Project is protected under the GNU Public License. Please review the license in the Git Repository.
