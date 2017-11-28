@@ -9,8 +9,8 @@ Assembly Language Project 2
 ---
 Required packages/software
 * C++14 compiler
-* SFML 2.x.x [SFML Download Site](https://www.sfml-dev.org/download/sfml/2.4.2/)
-* CMake 2.6.x or newer [CMake Download Site](https://cmake.org/download/)
+* [SFML](https://www.sfml-dev.org/download/sfml/2.4.2/) 2.x.x
+* [CMake](https://cmake.org/download/) 2.6.x or newer
 * An NVIDIA Graphics Card
 ---
 
