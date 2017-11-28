@@ -11,8 +11,8 @@ Assembly Language Project 2
 
 ## Specifications
 What can I run this on?
-* Windows 7,8,10
-* Mac OSX 10.11 "Mavericks" to 10.13 "High Sierra"
+* Windows 7, 8, 10
+* Mac OSX 10.10 to 10.16
 * Ubuntu 16.0 (Recommended)
 
 ---
