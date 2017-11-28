@@ -8,6 +8,14 @@ Jim Samson (jasamson@alaska.edu)
 Assembly Language Project 2
 
 ---
+
+## Specifications
+What can I run this on?
+* Windows 7,8,10
+* Mac OSX 10.11 "Mavericks" to 10.13 "High Sierra"
+* Ubuntu 16.0 (Recommended)
+
+---
 Required packages/software
 * C++14 compiler
 * [SFML](https://www.sfml-dev.org/download/sfml/2.4.2/) 2.x.x
@@ -43,5 +51,5 @@ This project can be built using a terminal:
 
 ---
 
-## License
+### License
 This project is protected under the GNU Public License. Please review the license in the Git Repository.
