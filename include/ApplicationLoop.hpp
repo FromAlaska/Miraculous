@@ -51,12 +51,6 @@ public:
 	// 				None.
 	void windowLoop();
 
-	// update() function
-	// Checks for any updates from user input
-	// Preconditions:
-	//				None.
-	void update();
-
 private:
 	unique_ptr<Input> input_mgr_;
 };

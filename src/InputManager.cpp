@@ -32,12 +32,11 @@ void Input::handleInput() {
 	while (display_->window.pollEvent(event)) {
 		auto mousePosX = sf::Mouse::getPosition(display_->window).x; // x position
 		auto mousePosY = sf::Mouse::getPosition(display_->window).y; // y position
-		
 
 		switch (event.type) {
 			case sf::Event::Closed: {
 				display_->window.close();
-			break;
+				break;
 			}
 
 			// Key Pressed
@@ -45,6 +44,7 @@ void Input::handleInput() {
 				if (event.key.code == sf::Keyboard::Escape) {
 					display_->window.close();
 				}
+				break;
 			}
 			default:
 			break;	

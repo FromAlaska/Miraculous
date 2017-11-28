@@ -18,11 +18,6 @@ void AppLoop::windowLoop() {
 	while(input_mgr_->display_->window.isOpen()) {
 		input_mgr_->display_->update();
 		input_mgr_->display_->draw();
+		input_mgr_->handleInput();
 	}
-}
-
-// update() function
-// See header for more documentation.
-void AppLoop::update() {
-
 }
