@@ -43,4 +43,4 @@ This project can be built using a terminal:
 ---
 
 ## License
-This Project is protected under the GNU Public License. Please review the license in the Git Repository.
+This project is protected under the GNU Public License. Please review the license in the Git Repository.
