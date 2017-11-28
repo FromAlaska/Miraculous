@@ -19,7 +19,7 @@ This project can be built using a terminal:
   ```
   $ git clone https://github.com/FromAlaska/Miraculous.git
   ```
-* Change the directory to cloned git repository and create a build folder, then change the directory in it
+* Change the directory to cloned git repository and create a build folder, then change the directory in it.
   ```
   $ cd Miraculous
   $ mkdir build
