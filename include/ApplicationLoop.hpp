@@ -16,6 +16,7 @@ using std::endl;
 #include <vector>
 using std::vector;
 #include <memory>
+using std::unique_ptr;
 using std::shared_ptr;
 using std::make_shared;
 
