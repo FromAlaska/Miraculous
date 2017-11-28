@@ -24,3 +24,31 @@ void Input::mouseOverObject()
 bool Input::clickOnSprite(sf::Sprite, int, int) {
 	return true; // Dummy function
 }
+
+// handleInput() function
+// See header for more documentation.
+void Input::handleInput() {
+	sf::Event event;
+	while (display_->window.pollEvent(event)) {
+		auto mousePosX = sf::Mouse::getPosition(display_->window).x; // x position
+		auto mousePosY = sf::Mouse::getPosition(display_->window).y; // y position
+		
+
+		switch (event.type) {
+			case sf::Event::Closed: {
+				display_->window.close();
+			break;
+			}
+
+			// Key Pressed
+			case sf::Event::KeyPressed: {
+				if (event.key.code == sf::Keyboard::Escape) {
+					display_->window.close();
+				}
+			}
+			default:
+			break;	
+		}
+	}
+	return;
+}

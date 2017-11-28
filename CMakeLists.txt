@@ -20,6 +20,7 @@ set(SOURCE_FILES
 			src/Display.cpp
 			src/InputManager.cpp
 			src/ApplicationLoop.cpp
+			src/timer.cpp
 		)
 
 # Define sources and executable

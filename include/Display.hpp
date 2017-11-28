@@ -56,6 +56,9 @@ public:
 	// Preconditions:
 	//				None.
 	void setText(sf::Text&, const sf::Color&, float x, float y);
+
+	// Class Objects
+	sf::RenderWindow window;
 };
 
 #define WINDOW_WIDTH 1920

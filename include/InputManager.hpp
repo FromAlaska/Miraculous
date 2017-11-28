@@ -8,9 +8,12 @@
 #define INPUTMANAGER_HPP
 
 #include <SFML/Graphics.hpp>
+#include <SFML/Window/Event.hpp>
+#include <SFML/Window/Mouse.hpp>
 #include "Display.hpp"
 #include <memory>
-using shared_ptr;
+using std::shared_ptr;
+using std::make_unique;
 
 class Display;
 
@@ -44,6 +47,12 @@ public:
 	// Preconditions:
 	//				None.
 	bool clickOnSprite(sf::Sprite, int, int);
+
+	// handleInput() function
+	// This handles the input of the window.
+	// Preconditions:
+	//				None.
+	void handleInput();
 
 	// Class objects
 	shared_ptr<Display> display_;

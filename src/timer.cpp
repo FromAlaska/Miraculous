@@ -17,7 +17,7 @@
 
 void Timer::updateTimer() {
 	/****** Current Timer Stuff ******/
-	currentTimer = music->_music.getPlayingOffset();
+	//currentTimer = music->_music.getPlayingOffset();
 	currentTimeSeconds = (int)currentTimer.asSeconds();
 	currentTimeMinutes = convertToMinutes((int)currentTimer.asSeconds());
 	currentTimeHours = convertToHours((int) currentTimeSeconds);
@@ -29,7 +29,7 @@ void Timer::updateTimer() {
 	currentTimerStreamHours << std::fixed << std::setprecision(0) << (currentTimeHours);
 	
 	/****** Total Timer Stuff ******/
-	totalTimer = music->_music.getDuration();
+	//totalTimer = music->_music.getDuration();
 	totalTimeSeconds = (int)totalTimer.asSeconds();
 	totalTimeMinutes = convertToMinutes((int) totalTimeSeconds);
 	totalTimeHours = convertToHours((int) totalTimeSeconds);
@@ -79,9 +79,6 @@ void Timer::updateTimer() {
 std::string Timer::selectDisplayTimer() {
 	std::string rv = "";
 	
-	if(music->_music.getStatus() == 0) {
-		music->callNextSong();
-	}
 	// 0:xx
 	if(totalTimeMinutes < 1) {
 		rv = "0:";
@@ -110,7 +107,4 @@ int Timer::convertToMinutes(int seconds) {
 
 int Timer::convertToHours(int seconds) {
 	return (seconds/(60*60));
-}
-
-Timer::Timer(std::shared_ptr<Music> music) : music(music) {
 }

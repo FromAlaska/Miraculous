@@ -14,15 +14,15 @@ AppLoop::AppLoop() {
 
 // windowLoop() function
 // See header for more documentation.
-void AppLoop:windowLoop() {
+void AppLoop::windowLoop() {
 	while(input_mgr_->display_->window.isOpen()) {
-		input_mgr_->update();
-		input_mgr_->draw();
+		input_mgr_->display_->update();
+		input_mgr_->display_->draw();
 	}
 }
 
 // update() function
 // See header for more documentation.
 void AppLoop::update() {
-	
+
 }

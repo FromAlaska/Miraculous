@@ -7,6 +7,8 @@
 #ifndef APPLICATIONLOOP_HPP
 #define APPLICATIONLOOP_HPP
 
+#include "InputManager.hpp"
+
 #include <SFML/Graphics.hpp>
 #include <SFML/Audio.hpp>
 #include <cstddef>

@@ -17,8 +17,6 @@
 #include <SFML/Graphics.hpp>
 #include <sstream>
 
-#include "Music.hpp"
-
 class Timer {
 	/****** Timer Variables ******/
 	// Current Time Elapsed Stuff
@@ -47,11 +45,8 @@ class Timer {
 	std::string totalMin;
 	std::string totalHour;
 
-	std::shared_ptr<Music> music;
 public:
 	Timer() = default;
-
-	Timer(std::shared_ptr<Music> music);
 
 	/****** Timer Functions ******/
 	void updateTimer();

@@ -24,3 +24,27 @@ void Display::draw() {
 	// Put objects in here!
 	window.display(); // Keep this last.
 }
+
+// update() function
+// See header for more documentation.
+void Display::update() {
+
+}
+
+// loadTexture() function
+// See header for more documentation.
+void Display::loadTexture() {
+
+}
+
+// setTexture() function
+// See header for more documentation.
+void Display::setTexture() {
+
+}
+
+// setText function
+// See header for more documentation.
+void Display::setText(sf::Text&, const sf::Color&, float x, float y) {
+
+}
