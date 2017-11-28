@@ -43,6 +43,10 @@ This project can be built using a terminal:
   ```
   $ make
   ```
+* If you really like this project, you can install it on this computer
+  ```
+  $ make install
+  ```
 * Now, you may able to run the application by using the following command:
   ```
   $ ./Miraculous
