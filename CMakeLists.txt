@@ -16,11 +16,15 @@ include_directories("${PROJECT_BINARY_DIR}")
 set(SOURCE_FILES 
 			#src/main.cpp
 			# --- TODO ---
+			src/main.cpp
+			src/Display.cpp
+			src/InputManager.cpp
+			src/ApplicationLoop.cpp
 		)
 
 # Define sources and executable
-set(EXECUTABLE_NAME Miraculous)
-add_executable(${EXECUTABLE_NAME} ${SOURCE_FILES} src/ include/) #EX: src/timer.cpp include/timer.hpp # --- TODO ---
+#set(EXECUTABLE_NAME Miraculous)
+#add_executable(${EXECUTABLE_NAME} ${SOURCE_FILES} src/ include/) #EX: src/timer.cpp include/timer.hpp # --- TODO ---
 
 # Detect and add SFML
 set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake_modules" ${CMAKE_MODULE_PATH})
