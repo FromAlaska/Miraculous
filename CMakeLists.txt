@@ -24,7 +24,7 @@ set(SOURCE_FILES
 
 # Define sources and executable
 set(EXECUTABLE_NAME Miraculous)
-#add_executable(${EXECUTABLE_NAME} ${SOURCE_FILES} src/ include/) #EX: src/timer.cpp include/timer.hpp # --- TODO ---
+add_executable(${EXECUTABLE_NAME} ${SOURCE_FILES} src/timer.cpp include/timer.hpp)
 
 # Detect and add SFML
 set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake_modules" ${CMAKE_MODULE_PATH})
