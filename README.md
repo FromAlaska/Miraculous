@@ -16,17 +16,17 @@ Assembly Language Project 2
 
 1. This project can be built using a terminal:
 * Clone the repo from [GitHub](https://github.com) 
-** git clone https://github.com/FromAlaska/Miraculous.git
+  * git clone https://github.com/FromAlaska/Miraculous.git
 * Change the directory to cloned git repository and create a build folder, then change the directory in it
-** cd Miraculous
-** mkdir build
-** cd build/
+  * cd Miraculous
+  * mkdir build
+  * cd build/
 * Let CMake generate the MakeFile for you:
-** cmake ..
+  * cmake ..
 * If all the packages are correctly installed, run the MakeFile to create the executable.
-** make
+  * make
 * Now, you may able to run the application by using the following command:
-** ./Miraculous
+  * ./Miraculous
 * Thank You!
 
 ---
