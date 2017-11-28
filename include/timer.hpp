@@ -1,4 +1,4 @@
-// timer.cpp
+// timer.hpp
 // 26. April 2017
 // Created by:
 // 		Bryan Burkhardt (bmburkhardt@alaska.edu)
