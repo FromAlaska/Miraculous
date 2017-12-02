@@ -5,7 +5,7 @@ Created by:
 
 Jim Samson (jasamson@alaska.edu)
 
-Assembly Language Project 2
+A template made for creating SFML Projects.
 
 ---
 
